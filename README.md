@@ -1,8 +1,8 @@
 # Tina Taylor's Submission
 
 ## Tech Stack:
-Node.js
-Testing was set up with Mocha and Chai
+Node.js<br/>
+Testing was set up with Mocha and Chai<br/>
 ## Set up
 - git clone repo
 - npm i

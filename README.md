@@ -1,5 +1,23 @@
-# Overview
+# Tina Taylor's Submission
 
+## Tech Stack:
+Node.js
+Testing was set up with Mocha and Chai
+## Set up
+- git clone repo
+- npm i
+- Run testing: npm test
+
+## A few words
+
+My approach revolved around implementing an adjacent graph approach to solve the problem. Excitingly, this was my first try at using the testing framework Mocha, so spent a chunk of time learning how to set that up. I ended the prompt due to time limitation with a long to-do list of future tests and steps to complete the solution.
+
+I also spent some time considering how to implement the prompt as a deployed app. If more time allowed I would set up a project with React and Django. I jotted some plans down for future implementation. Thanks for reading!
+
+ <img src="./assets/DB.png" width="400" />
+ <img src="./assets/frontend.png" width="400" />
+
+# Prompt
 - The Annual Legislator's Gala is here, it's the one night where members of congress all gather in one ballroom in DC, and discuss the results of the legislative session that had just passed. The event planners are as nervous as they are excited, knowing that they need to boil the seating chart down to a science because if the wrong pair are seated at the same table, tempers will flare. Additionally, some members of congress want to have constructive conversations about how the past year went, so the planners want to create a memorable night by seating them at the same table
 - So, you are tapped on the shoulder to build a system where given a list of legislators, a number of tables, and an optional param for preferred/avoided seating from the planner, it produces a seating chart for that night.
 
@@ -9,7 +27,7 @@
     - num_tables: an integer, representing the number of tables at the gala
     - guest_list: an array of strings, representing the entire list of invited guests at the event
     - planner_preferences: an array of dicts with in the following format
-        
+
         ```json
         [
         	{
@@ -22,7 +40,7 @@
         	}
         ]
         ```
-        
+
 - a few notes about the inputs
     - num_tables will always be a positive integer (≥1)
     - guest_list will contain all the guests that may be mentioned in planner_preferences
